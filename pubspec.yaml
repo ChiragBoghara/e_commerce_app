@@ -1,0 +1,81 @@
+name: e_commerce_app
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/airpods.png
+    - images/applewatch.png
+    - images/logo.png
+    - images/camera.jpg
+    - images/mouse.jpg
+    - images/monitor.jpg
+    - images/printer.jpg
+    - images/washingmachine.jpg
+    - images/computer.jpg
+    - images/ipad.jpg
+    - images/laptop.jpg
+    - images/shirt.jpg
+    - images/tshirt1.jpg
+    - images/trackpant.jpg
+    - images/pant.jpg
+    - images/kurta.jpg
+    - images/blazer.jpg
+    - images/shervani.jpg
+    - images/jacket.jpg
+    - images/fridge.jpg
+    - images/mixer.jpg
+    - images/gyzer.jpg
+    - images/gas.jpg
+    - images/fridge.jpg
+    - images/chimney.jpg
+    - images/filter.jpg
+    - images/ac.jpg
+    - images/table.jpg
+    - images/scissor.jpg
+    - images/cofeetable.jpg
+    - images/dishwasher.jpg
+    - images/micro.jpg
+    - images/cleaner.jpg
+    - images/fan.jpg
+    - images/speaker.jpg
+    - images/cycle.jpg
+    - images/smartwatch.jpg
+    - images/trademill.jpg
+    - images/yoga.jpg
+    - images/gloves.jpg
+    - images/dumbels.jpg
+    - images/airpod.jpg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
